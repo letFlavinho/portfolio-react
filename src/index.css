@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather Sans", sans-serif;
+}
+:root {
+  --cor-letras: #837e9f;
+  --cor-tech: #cb92b1;
+}
+#root {
+  display: flex;
+
+  padding: 2rem;
+  width: 100%;
+  background-color: #22212c;
+}
