@@ -10,7 +10,7 @@
 }
 #root {
   display: flex;
-
+  -webkit-font-smoothing: antialiased;
   padding: 2rem;
   width: 100%;
   background-color: #22212c;

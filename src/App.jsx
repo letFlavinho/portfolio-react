@@ -3,7 +3,7 @@ import axios from "axios";
 import { Profile } from "./components/perfil";
 import { Links } from "./components/links";
 import { Techs } from "./components/technologies";
-import { Projects } from "./components/my-projects";
+import { Box } from "./components/Box";
 import { Project } from "./components/project";
 import { Post } from "./components/post";
 
@@ -16,14 +16,18 @@ const App = () => {
         <Techs />
       </div>
       <div className="my-projects">
-        <Projects />
+        <Box
+          title="My Projects"
+          link="https://github.com/letFlavinho?tab=repositories"
+        />
         <div className="major">
           <Project />
           <Project />
         </div>
-        <div className="boxProjects">
-          <h2>Recent Posts</h2>
-        </div>
+        <Box
+          title="Recent Posts"
+          link="https://www.linkedin.com/in/flávio-bulhões-b4ab761b7/recent-activity/shares/"
+        />
         <Post />
       </div>
     </div>
