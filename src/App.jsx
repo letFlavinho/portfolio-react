@@ -1,37 +1,38 @@
 import "./App.css";
-import axios from "axios";
-import { Profile } from "./components/perfil";
-import { Links } from "./components/links";
-import { Techs } from "./components/technologies";
+import { Profile } from "./components/Profile";
+import { Links } from "./components/Links";
+import { Techs } from "./components/Techs";
 import { Box } from "./components/Box";
-import { Project } from "./components/project";
-import { Post } from "./components/post";
+import { Project } from "./components/Project";
+import { Post } from "./components/Post";
 
-const App = () => {
+function App() {
   return (
-    <div>
+    <div className="App">
       <div className="coluna">
-        <Profile />
-        <Links />
-        <Techs />
+        <Profile className="component" />
+        <Links className="component" />
+        <Techs className="component" />
       </div>
       <div className="my-projects">
         <Box
+          className="component"
           title="My Projects"
           link="https://github.com/letFlavinho?tab=repositories"
         />
         <div className="major">
-          <Project />
-          <Project />
+          <Project className="component" />
+          <Project className="component" />
         </div>
         <Box
+          className="component"
           title="Recent Posts"
           link="https://www.linkedin.com/in/flávio-bulhões-b4ab761b7/recent-activity/shares/"
         />
-        <Post />
+        <Post className="component" />
       </div>
     </div>
   );
-};
+}
 
 export default App;

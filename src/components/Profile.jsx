@@ -1,3 +1,4 @@
+import style from "../components/Profile.css";
 export function Profile() {
   return (
     <div className="profile">

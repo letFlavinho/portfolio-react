@@ -1,0 +1,19 @@
+.links {
+    margin: 2rem 0;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 20px;
+    background-color: #302f3d;
+    padding: 20px;
+    width: 100%;
+  }
+  .links a,
+  .links span {
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--cor-letras);
+    margin-left: 10px;
+  }
+  .links .svg {
+    margin: 8px 4px 8px 15px;
+    vertical-align: middle;
+  }

@@ -1,202 +1,38 @@
-/* estilização da div profile */
-.coluna {
-  display: inline-block;
-  width: 25vw;
-}
-
-.profile h1 {
-  padding-top: 15px;
-  font-size: x-large;
-  color: var(--cor-letras);
-}
-.profile span {
-  font-size: small;
-  color: var(--cor-letras);
-}
-.profile {
-  box-shadow: 1px 1px 1px black;
-  border-radius: 5%;
-  background-color: #302f3d;
-
-  width: 100%;
-
-  padding: 35px;
-  text-align: center;
-}
-.profile img {
-  border: 2px solid #00ff00;
-  max-width: 100px;
-  width: 100%;
-  border-radius: 50%;
-}
-/* fim da estilização da div profile */
-
-/* estilização da div links */
 .svg {
   color: #837e9f;
-}
-.links {
-  margin: 2rem 0;
-  box-shadow: 1px 1px 1px black;
-  border-radius: 20px;
-  background-color: #302f3d;
-  padding: 20px;
-  width: 100%;
-}
-.links a,
-.links span {
-  font-size: 12px;
-  text-decoration: none;
-  color: var(--cor-letras);
-  margin-left: 10px;
-}
-.links .svg {
-  margin: 8px 4px 8px 15px;
-  vertical-align: middle;
-}
-
-/* fim estilização da div profile */
-/* inicio da estilização da div technologies */
-
-.technologies {
-  box-shadow: 1px 1px 1px black;
-  border-radius: 20px;
-  background-color: #302f3d;
-
-  width: 100%;
-}
-.technologies h2 {
-  padding: 25px 25px 0 25px;
-}
-.technologies .tech-grid {
-  margin-top: 15px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 0 25px 25px 25px;
-}
-.technologies .box-tech {
-  width: 28%;
-  text-align: center;
-  background-color: var(--cor-tech);
-  border-radius: 25px;
-  margin: 5px;
-  padding: 1px;
-}
-
-h2 {
-  color: var(--cor-letras);
-}
-.box-tech span {
-  vertical-align: middle;
-  font-weight: 700;
-  font-size: 10px;
-  
-}
-/* fim da estilização da div .technologies */
-/* inicio da estilização da parte de projetos github */
-.my-projects {
-  float: right;
-  width: 66vw;
-  margin-left: 40px;
-
-  
-}
-.boxProjects {
-  box-shadow: 1px 1px 1px black;
-  border-radius: 20px;
-  background-color: #302f3d;
-  padding: 35px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.boxProjects a {
-  font-size: 14px;
-  text-decoration: none;
-  color: var(--cor-letras);
-  font-weight: 400;
-}
-.boxProjects h2 {
-  font-weight: 700;
-  font-size: 20px;
-}
-/* github repos */
-p{
-  margin: 15px 0;
-}
-span{
-  margin: 0 10px;
-}
-p, span{
-  font-size: 14px;
-  font-weight: 400;
-  vertical-align: middle;
-  
-  
-}
-.Project {
-
-  
-  width: 48%;
-  box-shadow: 1px 1px 1px black;
-  border-radius: 20px;
-  background-color: #302f3d;
-  padding: 30px;
-  display: flex;
-  
-  color: var(--cor-letras);
-  flex-wrap: wrap;
-}
-.major {
-  margin: 30px 0;
-  flex-direction: row;
+} 
+.App {
+  padding: 2rem;
   display: flex;
   justify-content: space-between;
 
+  background: #22212c;
+  min-height: 100vh;
 }
-.Project .title{
-  
-  display: flex;
-  align-items: center;
-  font-weight: 700;
-  
-}
-h4{
-  margin-left: 12px;
-  
-}
-.xibiu{
-  display: flex;
-  align-items: center;
-}
-/* fim da estilização da parte de projetos github */
-/* inicio da estilização da parte de posts */
-.Post{
-  box-shadow: 1px 1px 1px black;
-  border-radius: 20px;
-  background-color: #302f3d;
-  color: var(--cor-letras);
-  margin: 35px 0;
-  padding: 30px;
-
-}
-.rightPost{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-}
-.Post img{
-  margin-right:15px ;
-  max-width: 100px;
-  float: left;
-  border-radius: 50%;
-  
-}
-/* @media screen and (max-width: 500px) {
-  .coluna {
-    max-width: calc(100%);
+@media screen and (min-width: 1280px){
+  .my-projects{
+    margin-left: 2rem;
+    width:  75vw;
   }
-} */
+  .App{
+    display: flex;
+  
+  }
+  .coluna{
+    width: 25vw;
+  
+  }
+  
+}
+
+  
+
+@media screen and (max-width: 800px) {
+  .App {
+    flex-direction: column;
+  }
+  .boxProjects{
+    margin-top:2rem ;
+
+  }
+}

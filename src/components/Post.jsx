@@ -1,3 +1,4 @@
+import style from "../components/Post.css";
 export function Post() {
   return (
     <div className="Post">

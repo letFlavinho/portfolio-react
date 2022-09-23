@@ -1,3 +1,4 @@
+import style from "../components/Techs.css";
 export function Techs() {
   return (
     <div className="technologies">

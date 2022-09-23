@@ -2,6 +2,7 @@ import { FiLinkedin } from "react-icons/fi";
 import { FiGithub } from "react-icons/fi";
 import { FiMail } from "react-icons/fi";
 import { FiMapPin } from "react-icons/fi";
+import style from "../components/Links.css";
 export function Links() {
   return (
     <div className="links">

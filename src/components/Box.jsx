@@ -1,3 +1,5 @@
+import style from "../components/Box.css";
+
 export function Box(props) {
   return (
     <div className="boxProjects">
@@ -8,4 +10,3 @@ export function Box(props) {
     </div>
   );
 }
-//

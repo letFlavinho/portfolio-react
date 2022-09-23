@@ -1,0 +1,22 @@
+.Post{
+    box-shadow: 1px 1px 1px black;
+    border-radius: 20px;
+    background-color: #302f3d;
+    color: var(--cor-letras);
+    margin: 35px 0;
+    padding: 30px;
+  
+  }
+  .rightPost{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+  }
+  .Post img{
+    margin-right:15px ;
+    max-width: 100px;
+    float: left;
+    border-radius: 50%;
+    
+  }

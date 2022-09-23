@@ -1,0 +1,23 @@
+.profile h1 {
+    padding-top: 15px;
+    font-size: x-large;
+    color: var(--cor-letras);
+  }
+  .profile span {
+    font-size: small;
+    color: var(--cor-letras);
+  }
+  .profile {
+    box-shadow: 1px 1px 1px black;
+    border-radius: 5%;
+    background-color: #302f3d;
+    width: 100%;
+    padding: 35px;
+    text-align: center;
+  }
+  .profile img {
+    border: 2px solid #00ff00;
+    max-width: 8rem;
+    width: 100%;
+    border-radius: 50%;
+  }
