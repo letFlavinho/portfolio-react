@@ -20,10 +20,9 @@ function App() {
           title="My Projects"
           link="https://github.com/letFlavinho?tab=repositories"
         />
-        <div className="major">
-          <Project className="component" />
-          <Project className="component" />
-        </div>
+
+        <Project className="component" />
+
         <Box
           className="component"
           title="Recent Posts"

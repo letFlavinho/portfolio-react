@@ -20,3 +20,9 @@
     border-radius: 50%;
     
   }
+
+  @media screen and (max-width: 800px) {
+    .Post img{
+      display: none;
+    }
+  }

@@ -9,18 +9,19 @@
   background: #22212c;
   min-height: 100vh;
 }
-@media screen and (min-width: 1280px){
+@media screen and (min-width: 800px){
   .my-projects{
     margin-left: 2rem;
-    width:  75vw;
+    width:  72vw;
   }
   .App{
     display: flex;
+    
   
   }
   .coluna{
-    width: 25vw;
-  
+    width: 28vw;
+    
   }
   
 }

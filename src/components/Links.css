@@ -8,7 +8,7 @@
   }
   .links a,
   .links span {
-    font-size: 12px;
+    font-size: 0.75rem;
     text-decoration: none;
     color: var(--cor-letras);
     margin-left: 10px;

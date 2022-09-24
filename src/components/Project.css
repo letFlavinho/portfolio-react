@@ -1,3 +1,4 @@
+
 .Project {
   width: 48%;
   box-shadow: 1px 1px 1px black;
@@ -5,11 +6,10 @@
   background-color: #302f3d;
   padding: 30px;
   display: flex;
-
   color: var(--cor-letras);
   flex-wrap: wrap;
 }
-.major {
+.brothers {
   margin: 30px 0;
   flex-direction: row;
   display: flex;
@@ -20,8 +20,10 @@
   align-items: center;
   font-weight: 700;
 }
-h4 {
-  margin-left: 12px;
+a {
+  color: var(--cor-letras);
+  text-decoration: none;
+  margin-left: 0.75rem;
 }
 .interactions {
   display: flex;
