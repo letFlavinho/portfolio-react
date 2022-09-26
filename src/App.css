@@ -2,14 +2,13 @@
   color: #837e9f;
 } 
 .App {
-  padding: 2rem;
+  
   display: flex;
   justify-content: space-between;
-
-  background: #22212c;
-  min-height: 100vh;
+  
+  
 }
-@media screen and (min-width: 800px){
+@media screen and (min-width: 768px){
   .my-projects{
     margin-left: 2rem;
     width:  72vw;
@@ -28,7 +27,7 @@
 
   
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .App {
     flex-direction: column;
   }

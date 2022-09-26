@@ -3,8 +3,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Merriweather Sans", sans-serif;
+  
 }
 :root {
+  padding: 2rem;
+  background: #22212c;
+  min-height: 100vh;
   --cor-letras: #837e9f;
   --cor-tech: #cb92b1;
 }
